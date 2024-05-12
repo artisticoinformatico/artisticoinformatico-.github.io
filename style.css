@@ -73,6 +73,8 @@ body {
     font-size: 20px;
     text-decoration: underline;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .popup {
@@ -118,7 +120,6 @@ body {
 
 .tytul {
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #iks, #serce {
