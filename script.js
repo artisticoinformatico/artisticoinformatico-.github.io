@@ -21,8 +21,8 @@ function sprawdz() {
 
 
 function run() {
-    zamknij.style.left = Math.random(window.innerWidth)*700+"px";
-    zamknij.style.top = Math.random(window.innerHeight)*700+"px";
+    zamknij.style.left = Math.random()*(window.innerWidth*0.9)+"px";
+    zamknij.style.top = Math.random()*(window.innerHeight*0.9)+"px";
 }
 
 function seriozamknij()
