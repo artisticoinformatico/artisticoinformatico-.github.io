@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        
+    <div class="main">
+        <div class="nav">Szybka Mia</div>
+        <div class="mid">
+            Szybka Mia napluje ci do ryja
+            <div class="subtext" onclick="sprawdz()">Sprawdź teraz</div>
+        </div>
+
+
+
+        <div class="popup" id="popup">
+            <div class="tytul">Brak cipki cię dobija?</div>
+            <div class="okno" id="okno">
+                <img id="bubus" src="jkubus.jpg" alt="">
+            </div>
+            
+            <div class="wybur">
+                <img id="iks" src="iks.png" alt="" onclick="nieprzejdz()">
+                <img id="serce" src="serce.png" alt="" onclick="przejdz()">
+            </div>
+        </div>
+
+        <img class="backgrund" src="miaumc.jpg" alt="">
+    </div>
+
+    <div id="zamknij" onmouseover="run(1000)">
+        ZAMKNIJ - X
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
