@@ -9,7 +9,7 @@ function nieprzejdz() {
     let bubus = document.getElementById('bubus');
     bubus.remove();
     let okno = document.getElementById('okno');
-    okno.innerHTML+= '<iframe src="https://www.pornhub.com/embed/6638bc6a7ef29" sandbox=" allow-same-origin allow-scripts" frameborder="0" width="100%" height="100%" scrolling="no" allowfullscreen allow="autoplay"></iframe>';
+    okno.innerHTML+= '<iframe src="https://www.pornhub.com/embed/6638bc6a7ef29" sandbox=" allow-same-origin allow-scripts" frameborder="0" width="100%" height="100%" scrolling="no" allowfullscreen></iframe>';
 }
 
 function sprawdz() {
