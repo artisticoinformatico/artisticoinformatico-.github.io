@@ -1,3 +1,6 @@
+let zamknij = document.getElementById("zamknij");
+let popup = document.getElementById("popup");
+
 function przejdz() {
     window.open("https://www.facebook.com/profile.php?id=100018630578075", "_blank");
 }
@@ -10,23 +13,19 @@ function nieprzejdz() {
 }
 
 function sprawdz() {
-    let popup = document.getElementById("popup");
     popup.className = "popup enable";
+    zamknij.style.opacity = 1;
+    run();
 }
 
-let zamknij = document.getElementById("zamknij");
-/*let x = 0;
-let y = 0;
-function getCursor(event) {
-    let x = event.clientX;
-    let y = event.clientY;
-
-}*/
 
 
-function run(ile=10) {
+function run() {
     zamknij.style.left = Math.random(window.innerWidth)*700+"px";
     zamknij.style.top = Math.random(window.innerHeight)*700+"px";
 }
 
-//window.setInterval(run, 10);
+function seriozamknij()
+{
+    popup.className = "popup";
+}
